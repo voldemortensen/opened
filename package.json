@@ -1,6 +1,6 @@
 {
   "name": "@ronomon/opened",
-  "version": "1.5.3",
+  "version": "1.5.4",
   "description": "Check if a file is open in another application on Windows, macOS and Linux.",
   "main": "index.js",
   "files": [
@@ -30,7 +30,7 @@
   "homepage": "https://github.com/ronomon/opened#readme",
   "scripts": {
     "install": "prebuild-install || node-gyp rebuild",
-    "prebuild-electron": "prebuild -t 7.0.0 -t 8.0.0 -t 9.0.0 -r electron",
+    "prebuild-electron": "prebuild -t 6.0.0 -t 7.0.0 -t 8.0.0 -t 9.0.0 -r electron",
     "test": "node test.js"
   },
   "dependencies": {
