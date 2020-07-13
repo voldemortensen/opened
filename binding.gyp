@@ -3,7 +3,8 @@
     {
       "target_name": "binding",
       "sources": [ "binding.cc" ],
-      "include_dirs": [ "<!(node -e \"require('nan')\")" ]
+      "include_dirs": [ "<!(node -e \"require('nan')\")" ],
+      "win_delay_load_hook": "true"
     },
     {
       "target_name": "copy",
